@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  margin-top: 2rem;
+}
+
+.meta-tag-title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.generated-meta-tags {
+  margin-top: 2rem;
+  background: #000;
+  color: #fff;
+}
+
+.generated-meta-tags pre {
+  padding: 1rem;
+}
