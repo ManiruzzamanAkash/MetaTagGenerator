@@ -9,26 +9,14 @@
     "react": "17.0.2",
     "react-bootstrap": "2.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.0",
-    "tailwindcss": "2.2.19"
+    "react-scripts": "4.0.0"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.4"
-  },
+  "devDependencies": {},
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run watch:css && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
